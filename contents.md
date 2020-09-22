@@ -9,96 +9,96 @@
 ### 課程大綱
 
 1. 第一週:
-    - Java語言介紹
-    - Java平台,開發工具安裝
-    - 類別與物件 
+   - Java語言介紹
+   - Java平台,開發工具安裝
+   - 類別與物件 
     
 1. 第二週:
-    - 資料型態
-    - Java運算子 
+   - 資料型態
+   - Java運算子 
     
 1. 第三週:
-    - 決策判斷語法(if-else, if-else if-else, switch-case)
+   - 決策判斷語法(if-else, if-else if-else, switch-case)
     
 1. 第四週:
-    - 廻圈語法(while loop, do-while, for loop)
+   - 廻圈語法(while loop, do-while, for loop)
 
 1. 第五週:
-    - 陣列
+   - 陣列
 
 1. 第六週:
-    - 物件導向分析方法
-    - 類別與物件概念
-    - 類別成員宣告及運用
-    - 物件宣告,建立及使用
+   - 物件導向分析方法
+   - 類別與物件概念
+   - 類別成員宣告及運用
+   - 物件宣告,建立及使用
    
 1. 第七週:
-    - 方法宣告與呼叫
-    - 方法參數傳遞機制
-    - 方法過載
-    - 變動長度參數
-    - 遞迴方法 
+   - 方法宣告與呼叫
+   - 方法參數傳遞機制
+   - 方法過載
+   - 變動長度參數
+   - 遞迴方法 
      
 1. 第八週:
-    - 類別靜態成員
-    - System, Math等類別
-    - 靜態區塊   
-    - static imports
+   - 類別靜態成員
+   - System, Math等類別
+   - 靜態區塊   
+   - static imports
     
 1. 第九週:
-    - 建構子 
-    - 物件建構流程
-    - 封裝(Encapsulation)
+   - 建構子 
+   - 物件建構流程
+   - 封裝(Encapsulation)
 
 1. 第十週:
-    - String 類別
-    - StringBuilder 類別
-    - 包裝類別(Wrapper class)
-    - ArrayList 類別
+   - String 類別
+   - StringBuilder 類別
+   - 包裝類別(Wrapper class)
+   - ArrayList 類別
     
 1. 第十一週:
-    - 套件架構
-    - 專案開發與部署 
+   - 套件架構
+   - 專案開發與部署 
         
 1. 第十二週:
-    - 繼承(Inheritance)
-    - 多型(Polymorphism)
-    - 存取權限
-    - Object 類別 
+   - 繼承(Inheritance)
+   - 多型(Polymorphism)
+   - 存取權限
+   - Object 類別 
     
 1. 第十三週:
-    - 抽象類別 abstract class
+   - 抽象類別 abstract class
     
 1. 第十四週:
-    - Java例外處理
+   - Java例外處理
     
 1. 第十五週:
-    -  檔案存取
+   -  檔案存取
 
 1. 第十六週:
-    - JDBC函式庫 
+   - JDBC函式庫 
     
 1. 第十七週:
-    - GUI設計 
+   - GUI設計 
     
 1. 第十八週:
-    - GUI設計
+   - GUI設計
     
 ### 期中考試日期 2020/11/9～13
 ### 學期考試日期 2021/1/11～15
 
 ### 學期評分方式: 
 
-    - 期中考 (30%) 
-    - 學期考試 (30%)
-    - 作業 (40%) 
+   - 期中考 (30%) 
+   - 學期考試 (30%)
+   - 作業 (40%) 
     
 ### 作業內容及繳交方式
 
-   - 作業會在當週課程結束後公布於[網站](https://ypnie108.github.io/2020ISU)
-   - 以所使用的開發工具(例如Eclipse)將包含程式碼的整個project目錄架構壓縮成.zip檔案, 檔名格式為: <學號>_<作業編號>.zip
-   - 在繳交期限內email到以下信箱:ypnie108@gmail.com
-   - 繳交期限: 當週課程結束後的星期六23時
+   - 作業會在當週課程結束後公布於[本網站](https://ypnie108.github.io/2020ISU)
+   - 以所使用的開發工具(例如Eclipse)將包含程式碼的整個project目錄架構壓縮成.zip檔案, 檔名格式為: **<學號>_<作業編號>.zip**
+   - 在繳交期限內email到以下信箱:**ypnie108@gmail.com**
+   - 繳交期限: 當週課程結束後的**星期六23時**
 
 ### 參考書目:
    - 掌握Java SE11程式設計(陳錦輝,博碩出版社,出版日期2019/07/31)
