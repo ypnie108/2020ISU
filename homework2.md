@@ -51,7 +51,8 @@
 	}
   ```
    
-1. 主要類別: TestRgba
+### 主要類別: TestRgba
+   - 定義 main()方法
    - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
    - 呼叫r1.displayColorFrame()
    - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
