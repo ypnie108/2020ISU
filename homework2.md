@@ -13,9 +13,11 @@
    - Rgba(int c) 
       - 參數 int c 的byte 1為RED成分, byte 2為GREEN成分, byte 3為BLUE成分, byte 4為ALPHA成分
    - Rgba(int r, int g, int b, int a)
+      - 需檢查r, g, b, a都介於 0-255 之間
    - Rgba(double r, double g, double b, double a) 
       - 參數為double型態, 代表每一個顏色成分的百分比(0.0到1.0)
       - 例如0.5等同於255*0.5=127
+      - 需檢查r, g, b, a 都介於 0.0-1.0 之間
 1. 成員方法:
    - void invertColor()
       - 反轉顏色
@@ -60,7 +62,7 @@ public void displayColorButton() {
 1. 定義 main()方法
    - 產生Rgba物件: 
       - Rgba r1 = new Rgba(128,128,0,128)
-      - Rgba r2 = new Rgba(0.1,0.8,0.9,6.0)
+      - Rgba r2 = new Rgba(0.1,0.8,0.9,0.6)
    - 呼叫r1.displayColorButton()
    - 呼叫r2.displayColorButton()
    - 呼叫r2.setNotTransparent()
