@@ -10,8 +10,20 @@
 ### 定義一個代表顏色的類別 Rgba
 1. 成員變數: int red, int green, int blue, int alpha
 1. 建構子: 
-   - Rgba(int c) : 參數 int c 的byte 1為RED成分, byte 2為GREEN成分, byte 3為BLUE成分, byte 4為ALPHA成分
+   - Rgba(int c) 
+      - 參數 int c 的byte 1為RED成分, byte 2為GREEN成分, byte 3為BLUE成分, byte 4為ALPHA成分
    - Rgba(int r, int g, int b, int a)
-   - Rgba(double r, double g, double b, double a)
+   - Rgba(double r, double g, double b, double a) 
+      - 參數為double型態, 代表每一個顏色成分的百分比(0.0到1.0)
+      - 例如0.5等同於255*0.5=127
+1. 成員方法:
+   - void invertColor()
+      - 反轉顏色
+      - 透明度不需要改變
+  - void setNonTransparent()
+      - 設定成完全不透明
+  - void displayColorFrame()
+  
+  '''
    
 
