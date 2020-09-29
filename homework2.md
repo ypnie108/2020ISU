@@ -23,7 +23,30 @@
   - void setNonTransparent()
       - 設定成完全不透明
   - void displayColorFrame()
+  - void java.awt.Color toColor()
   
   '''
+  public Color toColor() {
+		System.out.printf("alpha:%d, red:%d,green:%d,blue:%d\n", alpha & 0xFF, red & 0xFF, green & 0xFF, blue & 0xFF);
+		return new Color(red & 0xFF, green & 0xFF, blue & 0xFF, alpha & 0xFF);
+	}
+
+	public void displayColorFrame() {
+		JFrame f = new JFrame();
+		f.setLocation(pos+=300, 1);
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		FlowLayout bl = new FlowLayout();
+		f.setLayout(bl);
+		f.setTitle("Color Frame: "+serial++);
+		f.setSize(250, 250);
+		JButton b = new JButton("Color");
+		b.setFont(new Font("Arial", Font.PLAIN, 80));
+		b.setPreferredSize(new Dimension(250, 250));
+		b.setBackground(Color.BLACK);
+		b.setForeground(toColor());
+		f.add(b);
+		f.setVisible(true);
+	}
+   '''
    
 
