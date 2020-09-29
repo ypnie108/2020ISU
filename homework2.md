@@ -20,10 +20,12 @@
    - void invertColor()
       - 反轉顏色
       - 透明度不需要改變
-  - void setNonTransparent()
+   - void setNonTransparent()
       - 設定成完全不透明
-  - void displayColorFrame()
-  - void java.awt.Color toColor()
+   - void displayColorFrame()
+      - 顯示顏色視窗
+   - void java.awt.Color toColor()
+      - 轉換成java.awt.Color物件
   
   ```
   public Color toColor() {
@@ -49,4 +51,8 @@
 	}
   ```
    
-
+1. 主要類別: TestRgba
+   - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
+   - 呼叫r1.displayColorFrame()
+   - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
+   - 呼叫r2.displayColorFrame()
