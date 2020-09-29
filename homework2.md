@@ -25,7 +25,7 @@
   - void displayColorFrame()
   - void java.awt.Color toColor()
   
-  '''
+  ```
   public Color toColor() {
 		System.out.printf("alpha:%d, red:%d,green:%d,blue:%d\n", alpha & 0xFF, red & 0xFF, green & 0xFF, blue & 0xFF);
 		return new Color(red & 0xFF, green & 0xFF, blue & 0xFF, alpha & 0xFF);
@@ -47,6 +47,6 @@
 		f.add(b);
 		f.setVisible(true);
 	}
-   '''
+  ```
    
 
