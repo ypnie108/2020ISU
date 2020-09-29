@@ -58,7 +58,12 @@ public void displayColorButton() {
 ### 主要類別: TestRgba
 
 1. 定義 main()方法
-   - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
+   - 產生Rgba物件: 
+      - Rgba r1 = new Rgba(128,128,0,128)
+      - Rgba r2 = new Rgba(0.1,0.8,0.9,6.0)
    - 呼叫r1.displayColorButton()
-   - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
+   - 呼叫r2.displayColorButton()
+   - 呼叫r2.setNotTransparent()
+   - 呼叫r2.displayColorButton()
+   - 呼叫r2.invertColor()
    - 呼叫r2.displayColorButton()
