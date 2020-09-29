@@ -22,27 +22,28 @@
       - 透明度不需要改變
    - void setNonTransparent()
       - 設定成完全不透明
-   - void displayColorFrame()
+   - void displayColorButton()
       - 顯示顏色視窗
    - void java.awt.Color toColor()
       - 轉換成java.awt.Color物件
   
-```
-public Color toColor() {
-	System.out.printf("alpha:%d, red:%d,green:%d,blue:%d\n", alpha & 0xFF, red & 0xFF, green & 0xFF, blue & 0xFF);
-	return new Color(red & 0xFF, green & 0xFF, blue & 0xFF, alpha & 0xFF);
-}
+``` 
 
 public static int pos=1;
 public static int serial=1;
 
-public void displayColorFrame() {
+public Color toColor() {
+	System.out.printf("red:%d, green:%d, blue:%d, alpha:%d\n", red, green, blue, alpha);
+	return new Color(red, green, blue, alpha);
+}
+
+public void displayColorButton() {
 	JFrame f = new JFrame();
-	f.setLocation(pos+=300, 1);
+	f.setLocation(pos += 300, 1);
 	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	FlowLayout bl = new FlowLayout();
 	f.setLayout(bl);
-	f.setTitle("Color Frame: "+serial++);
+	f.setTitle("Color Frame: " + serial++);
 	f.setSize(250, 250);
 	JButton b = new JButton("Color");
 	b.setFont(new Font("Arial", Font.PLAIN, 80));
@@ -58,6 +59,6 @@ public void displayColorFrame() {
 
 1. 定義 main()方法
    - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
-   - 呼叫r1.displayColorFrame()
+   - 呼叫r1.displayColorButton()
    - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
-   - 呼叫r2.displayColorFrame()
+   - 呼叫r2.displayColorButton()
