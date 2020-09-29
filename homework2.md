@@ -55,8 +55,9 @@ public void displayColorFrame() {
 ```
    
 ### 主要類別: TestRgba
-   1 定義 main()方法
-      - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
-      - 呼叫r1.displayColorFrame()
-      - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
-      - 呼叫r2.displayColorFrame()
+
+1. 定義 main()方法
+   - 產生Rgba物件: Rgba r1 = new Rgba(128,128,0,128)
+   - 呼叫r1.displayColorFrame()
+   - 產生Rgba物件: Rgba r2 = new Rgba(0.1,0.8,0.9,1.0)
+   - 呼叫r2.displayColorFrame()
