@@ -10,7 +10,7 @@
 		colorName = name;
 	}
 	public void setColorName(int r, int g, int b) {
-		String name = String.format("%X%X%X", r, g, b);
+		String name = String.format("%02X%02X%02X", r, g, b);
 		colorName = name;
 	}
 	```
@@ -31,9 +31,9 @@
 5. 在invertColor()方法中呼叫`setColorName(red, green, blue);` 來設定colorName
 6. 新增一個static方法, 可以輸入顏色名稱來產生Rgba物件
 
-   - 新增的方法為: `public static Rgba2 stringToRgba(String name)`
+   - 新增的方法為: `public static Rgba stringToRgba(String name)`
    - 顏色名稱與實際RGB代碼對應如下: ![color codes](colors.png)
-   - 利用以下switch case架構, 根據colorName來指定顏色RGB代碼colorCode:
+   - 利用以下switch case架構, 根據顏色名稱name來指定顏色RGB代碼colorCode:
    
 	```java
 	int colorCode;
