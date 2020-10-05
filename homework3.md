@@ -1,6 +1,7 @@
 ## 作業 No. 3
 
 ### 練習使用switch case
+
 1. 在類別中加入`public String colorName`成員變數, 用來儲存顏色名稱
 2. 加入以下成員方法:
 
@@ -47,6 +48,7 @@ switch (name) {
 		colorCode = 0x000000;
 }
 ```
+   
    - colorCode需加入alpha值255(0xFF)
    - 最後輸出Rgba物件: `return new Rgba(colorCode, name)`
    
