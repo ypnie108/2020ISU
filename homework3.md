@@ -13,6 +13,7 @@ public void setColorName(int r, int g, int b) {
 	colorName = name;
 }	
 ```
+
 3. 在建構子中呼叫`setColorName(red, green, blue);` 來設定colorName
 4. 加入新的建構子 
 
@@ -48,6 +49,7 @@ switch (name) {
 ```
    - colorCode需加入alpha值255(0xFF)
    - 最後輸出Rgba物件: `return new Rgba(colorCode, name)`
+   
 7. 更新displayColorButton()如下:
 
 ```
