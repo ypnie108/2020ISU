@@ -2,7 +2,7 @@
 
 ### 練習使用switch case
 1. 在類別中加入`public String colorName`成員變數, 用來儲存顏色名稱
-1. 加入以下成員方法:
+2. 加入以下成員方法:
 
 ```
 public void setColorName(String name) {
@@ -13,8 +13,8 @@ public void setColorName(int r, int g, int b) {
 	colorName = name;
 }	
 ```
-1. 在建構子中呼叫`setColorName(red, green, blue);` 來設定colorName
-1. 加入新的建構子 
+3. 在建構子中呼叫`setColorName(red, green, blue);` 來設定colorName
+4. 加入新的建構子 
 
 ```
 public Rgba(int color, String name) {
@@ -26,8 +26,8 @@ public Rgba(int color, String name) {
 }
 ```
 
-1. 在invertColor()方法中呼叫`setColorName(red, green, blue);` 來設定colorName
-1. 在作業No. 2中的顏色類別Rgba, 新增一個方法, 可以輸入顏色名稱來產生Rgba物件
+5. 在invertColor()方法中呼叫`setColorName(red, green, blue);` 來設定colorName
+6. 新增一個static方法, 可以輸入顏色名稱來產生Rgba物件
 
    - 新增的方法為: `public static Rgba2 stringToRgba(String name)`
    - 顏色名稱與實際RGB代碼對應如下: ![color codes](colors.png)
@@ -48,7 +48,7 @@ switch (name) {
 ```
    - colorCode需加入alpha值255(0xFF)
    - 最後輸出Rgba物件: `return new Rgba(colorCode, name)`
-1. 更新displayColorButton()如下:
+7. 更新displayColorButton()如下:
 
 ```
 public void displayColorButton() {
@@ -69,7 +69,7 @@ public void displayColorButton() {
 }
 ```
 
-1. RgbaTest 主要類別:
+8. RgbaTest 主要類別:
 
 ```
 public class RgbaTest {
