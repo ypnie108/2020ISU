@@ -3,6 +3,7 @@
 ### 練習使用switch case
 1. 在類別中加入`public String colorName`成員變數, 用來儲存顏色名稱
 1. 加入以下成員方法:
+
 ```
 public void setColorName(String name) {
 	colorName = name;
@@ -10,11 +11,11 @@ public void setColorName(String name) {
 public void setColorName(int r, int g, int b) {
 	String name = String.format("%X%X%X", r, g, b);
 	colorName = name;
-}
-	
+}	
 ```
 1. 在建構子中呼叫`setColorName(red, green, blue);` 來設定colorName
 1. 加入新的建構子 
+
 ```
 public Rgba(int color, String name) {
 	red = color >>> 24;
@@ -31,6 +32,7 @@ public Rgba(int color, String name) {
    - 新增的方法為: `public static Rgba2 stringToRgba(String name)`
    - 顏色名稱與實際RGB代碼對應如下: ![color codes](colors.png)
    - 利用以下switch case架構, 根據colorName來指定顏色RGB代碼colorCode:
+   
 ```
 int colorCode;
 switch (name) {
@@ -47,6 +49,7 @@ switch (name) {
    - colorCode需加入alpha值255(0xFF)
    - 最後輸出Rgba物件: `return new Rgba(colorCode, name)`
 1. 更新displayColorButton()如下:
+
 ```
 public void displayColorButton() {
 	JFrame f = new JFrame();
@@ -67,8 +70,8 @@ public void displayColorButton() {
 ```
 
 1. RgbaTest 主要類別:
-```
 
+```
 public class RgbaTest {
 
 	public static void main(String[] args) {
