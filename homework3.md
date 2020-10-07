@@ -15,7 +15,7 @@
 
 ### 練習使用switch case
 
-1. 在類別中加入`public String colorName`成員變數, 用來儲存顏色名稱
+1. 在作業No.2的Rgba類別中加入`public String colorName`成員變數, 用來儲存顏色名稱
 2. 加入以下成員方法:
 
 	```java
