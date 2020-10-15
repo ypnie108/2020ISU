@@ -1,8 +1,5 @@
 ## 作業 No. 2
 
-### 相關教學影片[連結](https://youtu.be/ZpgwTwMd7Nc)
-   - 不知道如何開始着手的同學可以參考上面youtube影片.
-   
 ### RGBA顏色格式
 1. 參考wiki的關於RGBA的顏色格式的介紹:[連結](https://zh.wikipedia.org/wiki/RGBA)
 1. 使用一個byte來儲存紅色RED成分, 一個byte來儲存綠色GREEN成分,  一個byte來儲存藍色BLUE成分, 一個byte來儲存透明度(ALPHA)成分
@@ -72,3 +69,7 @@ public void displayColorButton() {
    - 呼叫r2.displayColorButton()
    - 呼叫r2.invertColor()
    - 呼叫r2.displayColorButton()
+
+### 相關教學影片[連結](https://youtu.be/ZpgwTwMd7Nc)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
+   
