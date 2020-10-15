@@ -1,7 +1,4 @@
 ## 作業 No. 3
-
-### 相關教學影片[連結](https://youtu.be/mnaEn4nhZo4)
-   - 不知道如何開始着手的同學可以參考上面youtube影片.
    
 ### 練習使用多重決策if - else if - else
 
@@ -115,3 +112,7 @@
 
 	}
 	```
+
+### 相關教學影片[連結](https://youtu.be/mnaEn4nhZo4)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
+   
