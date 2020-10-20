@@ -19,5 +19,5 @@
          - public int calculateTotalPrice() : 計算總價格
          - public void printInformation() : 列印購物車資訊
       - 靜態(static)方法: 
-         - calculateShoppingCartId(): 產生ShoppingCard id數值(讓他等於Customer id)
+         - calculateShoppingCartId(): 產生ShoppingCard id數值(等於Customer id)
          
