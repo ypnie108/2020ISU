@@ -14,8 +14,10 @@
          - 傳入Customer參數, 以Customer的id作為ShoppingCart的id
          - items = new ProductItem[10]; // 最多 10 個 Product items
       - 成員方法:
-         - public void addItem(ProductItem i)
-         - public void removeItem(ProductItem i)
-         - public int calculateTotalPrice()
-         - public void printInformation()
+         - public void addItem(ProductItem i): 加入ProductItem, 須過濾重複加入的ProductItem
+         - public void removeItem(ProductItem i) : 移除ProductItem, 須確認ProductItem有在裡面再做移除
+         - public int calculateTotalPrice() : 計算總價格
+         - public void printInformation() : 列印購物車資訊
+      - 靜態(static)方法: 
+         - calculateShoppingCartId(): 產生ShoppingCard id數值(讓他等於Customer id)
          
