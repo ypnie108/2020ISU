@@ -2,7 +2,7 @@
 
 ### Part I : 根據物件導向分析設計的類別圖(Class Diagram)及類別之間的關係, 定義類別及旗下的成員變數, 建構子, 成員方法等
    - 這個練習是接續課堂上介紹的電子商務系統中已經定義的Product, ProductItem, Customer, Order等類別, 加入ShoppingCart(購物車)的類別 
-   - 參考![類別關係圖](EC_new.png)
+   - 參考![類別關係圖](EC_update.png)
    - ShoppingCart(購物車)的類別包含的內容:
       - 成員變數: 
          - public long id;
