@@ -1,5 +1,6 @@
 ## 作業 No. 7
 
+## Part I:
 ### 延續`作業6`所寫的電子商務系統, 根據`ShoppingCart`物件內容來產生`Order`物件
 ### ShoppingCart 類別:
    - 增加`exportItems()`方法: 用來匯出`ShoppingCart`物件中所包含的`ProductItem[]`陣列
@@ -12,3 +13,9 @@
    - 增加`Order(ShoppingCart)`建構子, 接受ShoppingCart物件為參數
        - 從`ShoppingCart`物件可取得`Customer`物件(`getCustomer()`方法), 再利用`exportItems()`可取得`ProductItem[]`陣列
        - 可參考`Order(Customer, ProductItem[])`建構子的內容來撰寫
+
+
+## Part II:
+### 請以遞迴方式實作河內塔(Hannoi Tower)問題
+   - 輸入盤子的數目
+   - 可以參考該[連結](https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94)
