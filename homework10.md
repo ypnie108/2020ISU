@@ -6,18 +6,7 @@
    3. 文章中的任何非英文字母(例如數字,空白,標點符號等)也計算其出現的總共次數
    4. 最後將文章中長度超過10個字元的英文字列印出來
 ### 利用StringBuilder來列印以下的三角形圖示
-`
-         A
-        BBB
-       CCCCC
-      DDDDDDD
-     EEEEEEEEE
-    FFFFFFFFFFF
-   GGGGGGGGGGGGG
-  HHHHHHHHHHHHHHH
- IIIIIIIIIIIIIIIII
-JJJJJJJJJJJJJJJJJJJ
-`
+
    - 使用StringBuilder物件
    - 三角形的高度可由鍵盤輸入
    - 利用迴圈將字串內容append()到該StringBuilder物件中
