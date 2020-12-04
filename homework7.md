@@ -19,3 +19,6 @@
 ### 請以遞迴方式實作河內塔(Hannoi Tower)問題
    - 輸入盤子的數目
    - 可以參考該[連結](https://zh.wikipedia.org/wiki/%E6%B1%89%E8%AF%BA%E5%A1%94)
+
+### 相關教學影片[連結1](https://youtu.be/9NUyAWoDLgM) , [連結2](https://youtu.be/g6d96IjDOf0)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
