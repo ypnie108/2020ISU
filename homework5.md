@@ -64,3 +64,5 @@
 ♢A	♢2	♢3	♢4	♢5	♢6	♢7	♢8	♢9	♢10	♢J	♢Q	♢K	
 ♣A	♣2	♣3	♣4	♣5	♣6	♣7	♣8	♣9	♣10	♣J	♣Q	♣K
 ```      
+### 相關教學影片[連結1](https://youtu.be/xqgUwoMpVbI) , [連結2](https://youtu.be/uIU_bHPNWDI)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
