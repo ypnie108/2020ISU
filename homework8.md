@@ -17,3 +17,6 @@
    - 可以將作業4中使用`阿基米德的圓內接正多邊形`來計算圓周率的演算內容變成Circle類別的一個static方法
    - 宣告方式: `public static double calculatePi(int n)`
    - `CircleTest`主要類別的`main()`中呼叫該`calculatePi()`, 並列印其結果到銀幕上
+   
+### 相關教學影片[連結1](https://youtu.be/jPbIRMLHfgM) , [連結2](https://youtu.be/rNhXJCYo1mo)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
