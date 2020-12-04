@@ -23,4 +23,5 @@
       - 靜態(static)方法: 
          - calculateShoppingCartId(): 產生ShoppingCard id數值(等於Customer id)
 	
-         
+### 相關教學影片[連結](https://youtu.be/9NMUBVcEJw4)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
