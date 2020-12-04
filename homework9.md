@@ -13,4 +13,6 @@
    - 備註: 
       - 建構子及updatePoint() 中需要檢核x,y在第一象限
       - public Point(int n)建構子中利用public Point(int x, int y)來完成建構的邏輯
-   
+
+### 相關教學影片[連結](https://youtu.be/dyNwznzma0s)
+   - 不知道如何開始着手的同學可以參考上面youtube影片.
