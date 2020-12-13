@@ -1,6 +1,5 @@
 ## 作業 No. 12 : 類別繼承
 
-## Part I:
 ### 延續`作業11`所寫的電子商務系統, 請以Customer類別為父類別定義其子類別CorporateCustomer
 
 類別圖如下:
