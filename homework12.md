@@ -3,7 +3,7 @@
 ### 延續`作業11`所寫的電子商務系統, 請以Customer類別為父類別定義其子類別CorporateCustomer
 
 類別圖如下:
-![類別圖](corporateCustomer.png)
+![類別圖](corporate_customer.png)
 
    - 增加taxId 實體變數(代表公司的統一編號)
    - 建構子(參數列為String name, String address, String phoneNumber, String email, int taxId)
