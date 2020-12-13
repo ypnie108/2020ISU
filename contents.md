@@ -15,74 +15,66 @@
     
 1. 第二週:
    - 資料型態
-   - Java運算子 
-    
+   
 1. 第三週:
-   - 決策判斷語法(if-else, if-else if-else, switch-case)
+   - 運算子 
     
 1. 第四週:
+   - 決策判斷語法(if-else, if-else if-else, switch-case)
+    
+1. 第五週:
    - 廻圈語法(while loop, do-while, for loop)
 
-1. 第五週:
+1. 第六週:
    - 陣列
 
-1. 第六週:
+1. 第七週:
    - 物件導向分析方法
    - 類別與物件概念
    - 類別成員宣告及運用
    - 物件宣告,建立及使用
    
-1. 第七週:
+1. 第八週:
    - 方法宣告與呼叫
    - 方法參數傳遞機制
    - 方法過載
    - 變動長度參數
    - 遞迴方法 
      
-1. 第八週:
+1. 第九週:
    - 類別靜態成員
    - System, Math等類別
    - 靜態區塊   
    - static imports
     
-1. 第九週:
+1. 第十週:
    - 建構子 
    - 物件建構流程
    - 封裝(Encapsulation)
 
-1. 第十週:
+1. 第十一週:
    - String 類別
    - StringBuilder 類別
+
+1. 第十二週:
    - 包裝類別(Wrapper class)
-   - ArrayList 類別
-    
-1. 第十一週:
+   - 正規表示式(Regular Expression)
    - 套件架構
    - 專案開發與部署 
         
-1. 第十二週:
-   - 繼承(Inheritance)
-   - 多型(Polymorphism)
-   - 存取權限
-   - Object 類別 
-    
 1. 第十三週:
+   - 繼承(Inheritance)
+    
+ 1. 第十四週:   
+   - 多型(Polymorphism)
+   - Object 類別 
+   
+1. 第十五週:
    - 抽象類別 abstract class
     
-1. 第十四週:
+1. 第十六週:
    - Java例外處理
     
-1. 第十五週:
-   -  檔案存取
-
-1. 第十六週:
-   - JDBC函式庫 
-    
-1. 第十七週:
-   - GUI設計 
-    
-1. 第十八週:
-   - GUI設計
     
 ### 期中考試日期 2020/11/9～13
 ### 學期考試日期 2021/1/11～15
