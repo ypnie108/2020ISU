@@ -64,10 +64,10 @@
         
 1. 第十三週:
    - 繼承(Inheritance)
+   - Object 類別 
     
  1. 第十四週:   
    - 多型(Polymorphism)
-   - Object 類別 
    
 1. 第十五週:
    - 抽象類別 abstract class
